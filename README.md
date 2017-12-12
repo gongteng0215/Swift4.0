@@ -1,8 +1,5 @@
 # **一段Swift的旅程** #
 
-----------
-
-
 按照惯例，每学习一门新的程序语言，都应该在屏幕打印一下
 **"Hello,world!"**。在**Swift**中，只需要简单一行：
 
@@ -15,11 +12,10 @@
 <small>*备注：
 为了更好的体验，点击[这个链接](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)下载文件，并且用Xcode里的playground打开这一章节（Simple Values.xcplaygroundpage）。Playgrounds允许你编辑代码列表而且马上就能看到变化。*</small>
 
-##简单的值##
+## 简单的值 ##
 
 用 `let` 声明常量，用 `var` 声明变量。常量的值在编译期间不需要被识别，但是你必须正确地给它赋一次值。这样表示你只要给常量赋过一次值之后，你在很多地方都可以用它。
 >var myVariable = 42<br>
 >myVariable = 50<br>
 >let myConstant = 42<br>
 
-大厦
