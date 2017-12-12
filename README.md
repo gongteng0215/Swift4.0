@@ -10,9 +10,8 @@
 这段旅程将通过给你足够的信息来告诉你怎么用**Swift**代码来完成多种多样的编程任务。别担心，如果你不能理解一部分代码，或者全部都不理解，那也没事，在本书的其他章节都会一一讲解。
     
     备注：
-    为了更好的体验，点击下面链接下载文件，并且用Xcode里的playground打开
-    这一章节（Simple Values.xcplaygroundpage）。Playgrounds允许你编辑
-    代码列表而且马上就能看到变化。
+    为了更好的体验，点击下面链接下载文件，并且用Xcode里的playground打开这一章节（Simple Values.xcplaygroundpage）。
+    Playgrounds允许你编辑代码列表而且马上就能看到变化。
 
 [Playgrounds下载](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)
 
