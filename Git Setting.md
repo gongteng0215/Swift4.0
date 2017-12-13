@@ -1,5 +1,6 @@
 # 配置github的ssh密钥: #
 
+1、Windows键+r打开运行，输入cmd
 (1)打开Git Bash查看电脑上是否已经存在SSH密钥：
 输入 cd ~/.ssh
 
@@ -13,13 +14,13 @@
 用记事本打开.ssh目录下的id_rsa.pub文件，复制里面的内容；
 cat ~/.ssh/id_rsa.pub
  
-4、复制ssh key到github：
+2、复制ssh key到github：
 On the GitHub site Click “Account Settings” > Click “SSH Keys” > Click “Add SSH key”
 
 打开github网站，点击右上角扳手图标，然后点击左边菜单的 ssh key， 然后右边页面的 add ssh key，将复制的内容粘贴到github的key中，title可以不填，直接保存即可。
 
 
-5、测试 ssh 链接 github：
+3、测试 ssh 链接 github：
 输入 ssh -T git@github.com
 出现Successfully就OK；
 
