@@ -45,5 +45,5 @@
 
 >let apples = 3<br>
 >let oranges = 5<br>
->let appleSummary = "I have \(apples) apples. "<br>
->let fruitSummary = "I have \(apples + oranges) pieces of fruit. "
+>let appleSummary = "I have \\(apples) apples. "<br>
+>let fruitSummary = "I have \\(apples + oranges) pieces of fruit. "
