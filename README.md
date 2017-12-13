@@ -45,5 +45,8 @@
 
 >let apples = 3<br>
 >let oranges = 5<br>
->let appleSummary = "I have \\(apples) apples. "<br>
->let fruitSummary = "I have \\(apples + oranges) pieces of fruit. "
+>let appleSummary = "I have \\( apples ) apples. "<br>
+>let fruitSummary = "I have \\( apples + oranges ) pieces of fruit. "
+
+    练习：
+    将一个浮点运算式写到  \() 里面，并将它放到一个欢迎某某的问候语字符串里面。
