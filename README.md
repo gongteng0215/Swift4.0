@@ -29,7 +29,14 @@
 >let implicitDouble = 70.0<br>
 >let explicitDouble: Double = 70
 
-    练习:
+    练习：
     创建一个常量，显式声明 Float 类型，并且赋值 4 。
 
 值不会隐式地转化为另外一个类型。如果你需要把一个值转化为不同的类型，显式地创建一个所需类型的实例。
+
+>let label = "The width is "<br>
+>let width = 94<br>
+>let widthLabel = label + String(width)
+
+    练习：
+    试着删除最后一行的 String 转换。你得到错误是什么？
