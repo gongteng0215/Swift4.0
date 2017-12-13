@@ -40,3 +40,10 @@
 
     练习：
     试着删除最后一行的 String 转换。你得到错误是什么？
+
+还有一个更简单的方法在字符串里面包含值：把值写在括号 `()` 里面，然后在 `()` 前面加上 `\` 。举个例子：
+
+>let apples = 3<br>
+>let oranges = 5<br>
+>let appleSummary = "I have \(apples) apples. "<br>
+>let fruitSummary = "I have \(apples + oranges) pieces of fruit. "
