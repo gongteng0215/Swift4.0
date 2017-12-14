@@ -50,3 +50,12 @@
 
     练习：
     将一个浮点运算式写到  \() 里面，并将它放到一个欢迎某某的问候语字符串里面。
+
+用三个双引号 `"""` 来修饰多行字符串。如果在开始跟结束都有三个双引号 `"""` ，那么它将被删除，也就是说 `"""` 不会被打印出来。举个例子：
+
+>let apples = 3<br>
+>let oranges = 5<br>
+>let quotation = """<br>
+>I said "I have \(apples) apples. "<br>
+>And then I said "I have \(apples + oranges) pieces of fruit. "<br>
+>"""<br>
