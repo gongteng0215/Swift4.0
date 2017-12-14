@@ -56,6 +56,6 @@
 >let apples = 3<br>
 >let oranges = 5<br>
 >let quotation = """<br>
->I said "I have \(apples) apples. "<br>
->And then I said "I have \(apples + oranges) pieces of fruit. "<br>
+>I said "I have \\(apples) apples. "<br>
+>And then I said "I have \\(apples + oranges) pieces of fruit. "<br>
 >"""<br>
