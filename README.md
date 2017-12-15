@@ -63,23 +63,22 @@
 用中括号 `[]` 来创建数组和字典，并通过括号中的索引或者键值来访问它们的元素。最后一个元素也允许有 `,` 。
 
 >var shoppingList = ["catfish", "water", "tulips", "blue paint"]<br>
->print(shoppingList)<br>
->print(shoppingList[1])<br>
 >shoppingList[1] = "bottle of water"<br>
->print(shoppingList)<br>
 
->var occipations = [<br>
+>var occupations = [<br>
 >&emsp;&emsp;"Malcolm": "Captain",<br>
 >&emsp;&emsp;"Kaylee": "Mechanic",<br>
 >]<br>
->print(occipations)<br>
->print(occipations["Kaylee"]!)<br>
->occipations["Jayne"] = "Public Relations"<br>
->print(occipations)<br>
+>occupations["Jayne"] = "Public Relations"<br>
 
 用初始化语法来创建空的数组或者空的字典。
 
 >let emptyArray = \[String\]()<br>
->print(emptyArray)<br>
 >let emptyDictionary = \[String: Float\]()<br>
->print(emptyDictionary)<br>
+
+如果类型信息能被推断，你可以把空数组写成 `[]` ，空字段写成 `[:]` ——比如，当你为变量赋一个新值或者传参数给一个函数的时候。
+
+>shoppingList = []<br>
+>occupations = [:]<br>
+
+## 控制流 ##
