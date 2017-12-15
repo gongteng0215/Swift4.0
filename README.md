@@ -76,3 +76,10 @@
 >print(occipations["Kaylee"]!)<br>
 >occipations["Jayne"] = "Public Relations"<br>
 >print(occipations)<br>
+
+用初始化语法来创建空的数组或者空的字典。
+
+>let emptyArray = \[String\]()<br>
+>print(emptyArray)<br>
+>let emptyDictionary = \[String: Float\]()<br>
+>print(emptyDictionary)<br>
