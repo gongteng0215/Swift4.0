@@ -69,8 +69,8 @@
 >print(shoppingList)<br>
 
 >var occipations = [<br>
->     "Malcolm": "Captain",<br>
->	"Kaylee": "Mechanic",<br>
+>&emsp;&emsp;"Malcolm": "Captain",<br>
+>&emsp;&emsp;"Kaylee": "Mechanic",<br>
 >]<br>
 >print(occipations)<br>
 >print(occipations["Kaylee"]!)<br>
