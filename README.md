@@ -59,3 +59,20 @@
 >I said "I have \\(apples) apples. "<br>
 >And then I said "I have \\(apples + oranges) pieces of fruit. "<br>
 >"""<br>
+
+用中括号 `[]` 来创建数组和字典，并通过括号中的索引或者键值来访问它们的元素。最后一个元素也允许有 `,` 。
+
+>var shoppingList = ["catfish", "water", "tulips", "blue paint"]<br>
+>print(shoppingList)<br>
+>print(shoppingList[1])<br>
+>shoppingList[1] = "bottle of water"<br>
+>print(shoppingList)<br>
+
+>var occipations = [<br>
+>     "Malcolm": "Captain",<br>
+>	"Kaylee": "Mechanic",<br>
+>]<br>
+>print(occipations)<br>
+>print(occipations["Kaylee"]!)<br>
+>occipations["Jayne"] = "Public Relations"<br>
+>print(occipations)<br>
